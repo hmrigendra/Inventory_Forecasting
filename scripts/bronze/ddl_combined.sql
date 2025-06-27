@@ -14,7 +14,7 @@ IF OBJECT_ID ('bronze.combined', 'U') IS NOT NULL
 	DROP TABLE bronze.combined;
 
 CREATE TABLE bronze.combined (
-	data DATE,
+	date DATE,
 	store_ID NVARCHAR(50),
 	product_ID NVARCHAR(50),
 	category NVARCHAR(50),

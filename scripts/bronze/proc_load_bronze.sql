@@ -38,7 +38,7 @@ BEGIN
 		-- Load CSV file into the table
 		PRINT '>> Inserting Data Into Table: bronze.combined';
 		BULK INSERT bronze.combined
-		FROM 'C:\Users\mrige\Downloads\CAC Project\inventory_forecasting.csv'
+		FROM 'C:\Users\mrige\Downloads\Summer Things\Non Tech\SQL\CAC Project\inventory_forecasting.csv'
 		WITH (
 			FIRSTROW = 2,                            -- Skip header row
 			FIELDTERMINATOR = ',',                   -- Fields separated by commas
